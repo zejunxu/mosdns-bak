@@ -12,5 +12,5 @@ jobs:
           owner: caleee          # 替换为原仓库所有者
           base: main             # 替换为你的 fork 分支名
           head: main             # 替换为原仓库分支名
-          token: ${{ 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 }}
+          token: ${{ secrets.SYNC_TOKEN }}
           auto_approve: true
